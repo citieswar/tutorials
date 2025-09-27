@@ -1,0 +1,86 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Roboto+Mono&display=swap');
+
+:root{
+  --primary-600: #2e7d32;
+  --accent-500: #ffb300;
+  --bg-gradient-1: linear-gradient(180deg, #0f1723 0%, #07101a 100%);
+  --card-bg: rgba(255,255,255,0.02);
+}
+
+/* Body and typography */
+body {
+  font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg-gradient-1);
+  color: #e6eef8;
+}
+
+/* Page content container */
+.md-content {
+  background: transparent;
+}
+
+/* Hero placeholder image styling */
+.md-typeset img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+/* Cards and callouts */
+.md-card, .md-content__inner {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));
+  border: 1px solid rgba(255,255,255,0.04);
+  border-radius: 12px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: #eaffea;
+}
+
+/* Link style */
+a {
+  color: var(--primary-600);
+}
+
+/* Table styling */
+.md-typeset table {
+  border-collapse: collapse;
+  width: 100%;
+  background: rgba(255,255,255,0.02);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.md-typeset th, .md-typeset td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  text-align: left;
+  color: #e6eef8;
+}
+.md-typeset thead th {
+  background: rgba(46,125,50,0.08);
+  color: #dff3d8;
+}
+
+/* Callout admonition style */
+.admonition {
+  border-left: 4px solid var(--accent-500);
+  background: rgba(255,255,255,0.01);
+  padding: 12px 16px;
+  border-radius: 6px;
+}
+
+/* Footer tweak */
+.md-footer {
+  color: rgba(230,238,248,0.6);
+}
+
+/* Responsive tweak for small screens */
+@media (max-width: 700px) {
+  .md-nav__title {
+    font-size: 14px;
+  }
+}
