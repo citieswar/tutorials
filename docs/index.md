@@ -1,6 +1,6 @@
 # Cities War — Official Wiki
 
-Welcome to the **Cities War** official game guide. This site contains detailed data, strategy guides, and system mechanics to help you master the game.
+Welcome to the **Cities War** official game guide. This site contains detailed data, strategy guides, and system mechanics to help you master the game. hello
 
 - 🚀 Quick start: Getting Started → Overview  
 - 🧭 Find units: Units → Ground Forces / Navy / Air Force  
