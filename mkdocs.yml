@@ -1,0 +1,62 @@
+site_name: Cities War Wiki
+site_description: Official game guide for Cities War
+site_author: Game Dev Team
+site_url: https://yourname.github.io/game-wiki/
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: default
+    primary: green
+    accent: amber
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+
+extra_css:
+  - 'assets/styles/extra.css'
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/overview.md
+      - Resources: getting-started/resources.md
+      - FAQ: getting-started/faq.md
+  - Units:
+      - Ground Forces: units/ground.md
+      - Navy: units/navy.md
+      - Air Force: units/air.md
+      - Missiles: units/missiles.md
+  - Buildings:
+      - City Hall: buildings/cityhall.md
+      - Hospital: buildings/hospital.md
+      - Factory: buildings/factory.md
+  - Gameplay:
+      - Combat System: gameplay/combat.md
+      - Defense Mechanisms: gameplay/defense.md
+      - Alliances: gameplay/alliances.md
+      - Traps: gameplay/traps.md
+  - Strategy:
+      - Offense: strategy/offense.md
+      - Defense: strategy/defense.md
+      - Economy: strategy/economy.md
+  - Changelog: updates/changelog.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - footnotes
+  - def_list
