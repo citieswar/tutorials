@@ -23,4 +23,4 @@ Population reflects the actual population data of the real-world city.
 - **Country Defense**: Cities with larger populations contribute to stronger overall defense for their country.
 - **Population Composition**: A city’s population is divided into two parts: Civilian – Determines the city’s daily gold income. Recruitable – Determines how many troops can be recruited from the city.
 - **Battle Losses**: If a city is involved in a battle, its population decreases according to the scale of the conflict.
-- **Population Recovery**: Population can be restored by completing Civilizations tasks, lording the city, or contributing Food.
+- **Population Recovery**: Population can be restored by completing **[Civilizations](../wars/civilizations.md)** tasks, **[Lording](../general/playerlevel.md#lord)** the city, or contributing **[Food](../economy/resources.md#food)**.

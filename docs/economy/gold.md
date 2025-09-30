@@ -4,7 +4,7 @@ Gold is the universal currency in the game and plays a central role in both the 
 
 ## Ways to Obtain Gold
 - **Consumption During March**: Transform resources directly into Gold.
-- **Market Trading**: Sell resources to other players through the market.
+- **Market Trading**: Sell resources to other players through the **[market](../economy/market.md)**.
 - **City Tax**: Collect daily Gold from occupied cities, especially those with large populations.
 - **Resource Tax**: Earn Gold from other players who extract resources in your occupied resource cities.
 - **Alliance [Region Wars](../alliances/regional.md)**: Gain large amounts of Gold through alliance victories.

@@ -4,6 +4,6 @@ Airports in the game are located at real-world airbase positions, and all airpor
 
 Your air force base must be established near an airport.
 
-Airports can be occupied by air forces, but they cannot be attacked by armies, navies, or missiles. 
+Airports can be occupied by **[air forces](../units/airforces.md)**, but they cannot be attacked by **[armies](../units/armies.md)**, **[navies](../units/navies.md)**, or **[missiles](../units/missiles.md)**.
 
-Airports are not connected by routes.
+Airports are not connected by **[routes](../cities/routes.md)**.

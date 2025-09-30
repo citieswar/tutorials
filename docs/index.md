@@ -15,7 +15,7 @@ Conquest begins with your Army base. Its location is critical — placing it too
 
 - **Origin of [Armies](units/armies.md)**: All armies you create will originate from your Army base.
 - **Defeat & Return**: When your forces are defeated, they automatically return to your Army base.
-- **Missile Launch Point**: All missiles are launched from your Army base’s location.
+- **Missile Launch Point**: All **[missiles](units/missiles.md)** are launched from your Army base’s location.
 - **Relocation**: You have one free chance to move your Army base. After that, moving it costs Gems and can only be done once every 12 hours.
 
 ## Naval Base
