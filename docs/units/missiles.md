@@ -1,8 +1,11 @@
 # Missiles
 
-Missiles are powerful strategic assets.
+Missiles are a long-range attack option in the game. Each missile has unique **[damage, range, and speed](../weapons/missiles.md)**.
 
-| Missile | Oil | Steel | Rare | Uranium | Attack | Range | Cost |
-|--------:|----:|------:|-----:|--------:|------:|-----:|----:|
-| Short-range | 0 | 40 | 0 | 0 | 120 | 5 | 1200 |
-| Long-range  | 0 | 120 | 40 | 20 | 400 | 20 | 9000 |
+- Missiles can only be launched from an Army Base. 
+
+- A missile can attack multiple armies stationed in a single city.
+
+- Missiles cannot target alliance capital and border cities.
+
+- If you are unsure about the distance between your Army Base and the target, you can use the Survey tool.

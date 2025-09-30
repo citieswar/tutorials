@@ -1,4 +1,4 @@
-site_name: Cities War Wiki
+site_name: Cities War Tutorials
 site_description: Official game guide for Cities War
 site_author: Game Dev Team
 site_url: https://yourname.github.io/game-wiki/
@@ -7,9 +7,9 @@ theme:
   name: material
   language: en
   palette:
-    scheme: default
-    primary: green
-    accent: amber
+    scheme: slate
+    primary: black
+    accent: grey
   font:
     text: Roboto
     code: Roboto Mono
@@ -25,30 +25,51 @@ extra_css:
   - 'assets/styles/extra.css'
 
 nav:
-  - Home: index.md
   - Getting Started:
-      - Overview: getting-started/overview.md
-      - Resources: getting-started/resources.md
-      - FAQ: getting-started/faq.md
+      - Overview: index.md
+  - Cities:
+      - Overview: cities/overview.md
+      - Attributes: cities/attributes.md
+      - City Infrastructure: cities/infrastructure.md
+      - City Durability: cities/durability.md
+      - Routes: cities/routes.md
+      - Airports: cities/airports.md
+      - Request: cities/request.md
+  - Economy:
+      - Resources: economy/resources.md
+      - Gold: economy/gold.md
+      - Gems: economy/gems.md
+      - Market: economy/market.md
   - Units:
-      - Ground Forces: units/ground.md
-      - Navy: units/navy.md
-      - Air Force: units/air.md
+      - Armies: units/armies.md
+      - Navies: units/navies.md
+      - Air Forces: units/airforces.md
       - Missiles: units/missiles.md
-  - Buildings:
-      - City Hall: buildings/cityhall.md
-      - Hospital: buildings/hospital.md
-      - Factory: buildings/factory.md
-  - Gameplay:
-      - Combat System: gameplay/combat.md
-      - Defense Mechanisms: gameplay/defense.md
-      - Alliances: gameplay/alliances.md
-      - Traps: gameplay/traps.md
-  - Strategy:
-      - Offense: strategy/offense.md
-      - Defense: strategy/defense.md
-      - Economy: strategy/economy.md
-  - Changelog: updates/changelog.md
+  - Weapons:
+      - Overview: weapons/overview.md
+      - Firearm & Artillery: weapons/firearm.md
+      - Tanks: weapons/tanks.md
+      - Ships: weapons/ships.md
+      - Aircraft: weapons/aircraft.md
+      - Missiles: weapons/missiles.md
+  - Alliances:
+      - Overview: alliances/overview.md
+      - Alliance Capital: alliances/capital.md
+      - Alliance Territory: alliances/territory.md
+      - Regional War: alliances/regional.md
+      - Top 100 Cities Tournament: alliances/top100.md
+      - Rivalry: alliances/rivalry.md
+      - Diplomacy: alliances/diplomacy.md
+      - Alliance Bank: alliances/bank.md
+      - Alliance Hierarchy: alliances/hierarchy.md
+      - Alliance Levels: alliances/level.md
+  - Wars & Conquest:
+      - Combat System: wars/combat.md
+      - Country: wars/country.md
+      - Dominion: wars/dominion.md
+      - Civilizations: wars/civilizations.md
+  - General:
+      - Player Levels: general/playerlevel.md
 
 plugins:
   - search
