@@ -17,7 +17,7 @@ If the location is occupied, clicking Attack will trigger combat.
 		- **[Alliance Border](../alliances/territory.md)** / Dependency bonus
 		- **[City Hall](../cities/infrastructure.md#city-hall)** bonus
 		- **[Fortifications](../cities/infrastructure.md#fortifications)** bonus
-		- **[City Durability](../cities/cities/durability.md)** bonus
+		- **[City Durability](../cities/durability.md)** bonus
 	- Airport: Can increase combat power using Boosts.
 
 ## Scout
