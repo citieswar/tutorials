@@ -2,78 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://yourname.github.io/game-wiki/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/buildings/cityhall/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/bank/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/buildings/factory/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/capital/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/buildings/hospital/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/diplomacy/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/gameplay/alliances/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/hierarchy/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/gameplay/combat/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/level/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/gameplay/defense/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/overview/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/gameplay/traps/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/regional/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/getting-started/faq/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/rivalry/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/getting-started/overview/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/territory/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/getting-started/resources/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/alliances/top100/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/strategy/defense/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/cities/airports/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/strategy/economy/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/cities/attributes/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/strategy/offense/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/cities/durability/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/units/air/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/cities/infrastructure/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/units/ground/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/cities/overview/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/cities/request/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/cities/routes/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/economy/gems/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/economy/gold/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/economy/market/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/economy/resources/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/general/playerlevel/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/units/airforces/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/units/armies/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
          <loc>https://yourname.github.io/game-wiki/units/missiles/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/units/navy/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/units/navies/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
     <url>
-         <loc>https://yourname.github.io/game-wiki/updates/changelog/</loc>
-         <lastmod>2025-09-27</lastmod>
+         <loc>https://yourname.github.io/game-wiki/wars/civilizations/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/wars/combat/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/wars/country/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/wars/dominion/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/weapons/aircraft/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/weapons/firearm/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/weapons/missiles/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/weapons/overview/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/weapons/ships/</loc>
+         <lastmod>2025-09-30</lastmod>
+    </url>
+    <url>
+         <loc>https://yourname.github.io/game-wiki/weapons/tanks/</loc>
+         <lastmod>2025-09-30</lastmod>
     </url>
 </urlset>
