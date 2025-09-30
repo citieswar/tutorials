@@ -7,7 +7,7 @@ In this world, real cities become the battleground. With over 11,000 **[cities](
 - **Conquer Real Cities**: Deploy your forces to capture cities across the globe, each with strategic value.
 - **Build Your Army**: Assemble powerful land, sea, and air units to achieve dominance.
 - **Form Alliances**: Join forces with other players to expand your borders and defend your territory.
-- **Real-World Routes**: Move your armies along actual routes between cities, bringing a new layer of realism to strategic warfare.
+- **Real-World Routes**: Move your armies along actual **[routes](cities/routes.md)** between cities, bringing a new layer of realism to strategic warfare.
 - **Global Conquest**: Show your leadership and coordination as you fight for control of the entire world.
 
 ## Army Base
