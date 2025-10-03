@@ -22,3 +22,10 @@ When your alliance has 5 or more members and has occupied 20 or more cities, the
 	 - If enemy alliance value ≥ 3,000,000 → XP = enemy value ÷ 3,000,000, minimum 5 XP; player receives 100 Gems.
 
 - When Alliance XP reaches certain thresholds, the alliance levels up, increasing the reward level.
+
+## Appointing Co-Leaders for Capital
+- Alliance leaders may appoint 1–2 co-leaders to establish the capital.  
+- To assign co-leaders:  
+	- Click the **Alliance 'Edit'** button.  
+	- Select **'Change'** next to **'Capital Set Members'**.  
+	- Choose co-leaders from the list.  
