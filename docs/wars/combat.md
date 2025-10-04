@@ -20,11 +20,16 @@ If the location is occupied, clicking Attack will trigger combat.
 		- **[City Durability](../cities/durability.md)** bonus
 	- Airport: Can increase combat power using Boosts.
 
+## Battle Medals
+- Awarded after each battle, based on the combat power consumed.
+- Formula: 1 Battle Medal for every 10,000 combat power consumed.
+
 ## Scout
 - Before attacking an occupied city, you can scout to view its defense details, including:
 	- City troops and weapons
 	- Defense bonuses
--To scout a city, click the Scout button. Each scouting attempt costs 30 Battle Medals.
+
+- To scout a city, click the Scout button in the city information window. Each scouting attempt costs 30 Battle Medals.
 
 ## Anti-Scout
 - You can set an Anti-Scout to protect your cities from enemy scouts.
@@ -32,10 +37,6 @@ If the location is occupied, clicking Attack will trigger combat.
 	- Click the Cities tab in the top-right corner.
 	- Select the duration of the Anti-Scout effect.
 - You can set an Anti-Scout for 12 hours (5 medals), 24 hours (12 medals), 3 days (40 medals), or 7 days (100 medals).
-
-## Battle Medals
-- Awarded after each battle, based on the combat power consumed.
-- Formula: 1 Battle Medal for every 10,000 combat power consumed.
 
 ## Monuments
 Monuments commemorate major battles that occur in a city or airport (combat power > 500k attack/defense).

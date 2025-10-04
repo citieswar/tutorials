@@ -10,11 +10,15 @@ Each city has three fundamental attributes, and they are derived from real-world
 - **[Population](../cities/attributes.md#population)**: Reflects the actual population data of the real-world city.
 
 ## Resource Attributes
-Some cities also possess special resources, reflecting their real-world economic or strategic significance:
+Some cities also possess special resources, reflecting their real-world economic or strategic significance.
 
 - **[Oil](../economy/resources.md#oil)**
 - **[Steel](../economy/resources.md#steel)**
 - **[Food](../economy/resources.md#food)**
 - **[Rare Earth](../economy/resources.md#rare-earth)**
 - **[Uranium](../economy/resources.md#uranium)**
+
+Occupying a resource city increases your production rate for that specific **[resource](../economy/resources.md)**. Each occupied resource city grants a +10% production bonus to its corresponding resource type.  
+
+
 

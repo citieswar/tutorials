@@ -10,7 +10,7 @@ Navies are the main forces for naval combat. They can only travel along sea **[r
 ## Troops
 To form a navy, you need to recruit troops.
 
-- Each troop costs 30 Gold to recruit.
+- Each troop costs 30 **[Gold](../economy/gold.md)** to recruit.
 
 - Troops can only be recruited inside your Navy base or a Port city.
 

@@ -10,7 +10,7 @@ Air forces are the primary aerial units in the game. Unlike Armies and Navies, a
 ## Troops
 To form a air force, you need to recruit troops.
 
-- Each troop costs 30 Gold to recruit.
+- Each troop costs 30 **[Gold](../economy/gold.md)** to recruit.
 
 - Troops can only be recruited inside your Air Force Base or an Airport.
 

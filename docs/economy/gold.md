@@ -12,6 +12,7 @@ Gold is the universal currency in the game and plays a central role in both the 
 
 ## Uses of Gold
 - **Market Purchases**: Buy resources from other players.
+- **Recruit**: Recruit soldiers in your **cities or bases** to strengthen your **[armies](../units/armies.md)**, **[navies](../units/navies.md)**, and **[air forces](../units/airforces.md)**.
 - **[Weapon](../weapons/overview.md) Production & Repair**: Spend Gold to manufacture and repair weapons.
 - **[Missile](../weapons/missiles.md) Construction**: Required for building missiles.
 - **Resource Extraction Fees**: Pay tax when extracting resources from a city owned by another player.
