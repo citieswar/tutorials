@@ -69,6 +69,7 @@ nav:
       - Civilizations: wars/civilizations.md
   - General:
       - Player Levels: general/playerlevel.md
+      - Newbie Protection: general/newbie.md
 
 plugins:
   - search

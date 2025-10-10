@@ -1,6 +1,6 @@
 # Armies
 
-Armies serve as the primary ground forces for combat and are essential for city occupation. They can capture all types of cities across the map
+Armies serve as the primary ground forces for combat and are essential for city occupation. They can capture all types of **[cities](../cities/overview.md)** across the map.
 
 ## Creation
 - Every time you create an army, you can give it a custom name.
