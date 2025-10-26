@@ -6,7 +6,7 @@ Being part of an alliance comes with benefits:
 
 - All alliance members can receive daily rewards.
 - You gain alliance protection: cities within the alliance territory cannot be attacked by other players.
-- You can participate in alliance tournaments, such as **[regional wars](../alliances/regional.md)** and the **[Top 100 Cities](../alliances/top100.md)** Tournament, to earn large rewards.
+- You can participate in alliance tournaments, such as **[Regional Wars](../alliances/regional.md)** and the **[Territory Championship](../alliances/championship.md)**, to earn large rewards.
 - You can also participate in **[Rivalry](../alliances/rivalry.md)** to gain substantial rewards, including valuable resources and gold.
 
 ## Joining an Alliance

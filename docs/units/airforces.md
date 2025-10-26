@@ -41,7 +41,7 @@ Air forces can be equipped with **[aircraft](../weapons/aircraft.md)**. The numb
 
 - Defense Boost only resets when the unit is defeated.
 
-- City **[fortifications](../cities/infrastructure.md#fortifications)** provide a +45% defense bonus against attacking air forces.
+- City **[fortifications](../cities/infrastructure.md#fortifications)** provide a +50% defense bonus against attacking air forces.
 
 ## Airport Support Defense (Auto-Interception)
 When a city is attacked, the nearest airport that has your air forces stationed will automatically send them to intercept the attacker.
