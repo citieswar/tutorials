@@ -11,7 +11,7 @@ Armies marching along these routes do not consume resources, making them vital f
 Building requires 200 **[medals](../wars/combat.md#battle-medals)**. Each Connector has a usage limit of 20 marches before it expires.
 
 ## City Hall
-The City Hall can be built in a measured city, providing a 15% bonus to defense and a 10% boost to gold income.
+The City Hall can be built in a measured city, providing a 20% bonus to defense and a 10% boost to gold income.
 
 To construct it, you must first occupy the city and locate its true position within the urban area. 
 
@@ -20,7 +20,7 @@ Building requires 30 **[medals](../wars/combat.md#battle-medals)**, except when 
 If the city is lost in battle, the City Hall is destroyed and must be rebuilt with another 30 medals.
 
 ## Fortifications
-Fortifications can be built in a measured city, provide a 30% defense bonus against enemy armies/navies and a 45% defense bonus against enemy air forces for all stationed armies or navies.
+Fortifications can be built in a measured city, provide a 30% defense bonus against enemy **[armies](../units/armies.md)**/**[navies](../units/navies.md)** and a 50% defense bonus against enemy **[air forces](../units/airforces.md)**/**[missiles](../units/missiles.md)** for all stationed armies or navies.
 
 Building requires 30 **[medals](../wars/combat.md#battle-medals)**.
 

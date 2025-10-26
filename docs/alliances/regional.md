@@ -3,7 +3,7 @@
 Alliance Regional Wars are tournaments held in a specific region. All alliances can participate.
 
 ## Tournament Duration
-- Each tournament lasts 5 days, followed by a 1-day break.
+- Each tournament lasts 4 days, followed by a 1-day break.
 - At the beginning of each season, the system will randomly select one of the 9 regions as the tournament region.
 - Participating alliances need to occupy and hold cities within this region.
 

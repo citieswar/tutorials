@@ -1,4 +1,4 @@
-# 🛡️ Newbie Protection Rules
+# Newbie Protection Rules
 
 Players **below Level 5** and **registered within 7 days** are under protection.  
 Their cities **cannot be attacked** by other players.

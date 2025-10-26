@@ -46,8 +46,8 @@ There is a total of 20 levels. Your level increases every time you conquer an ad
 - All armies and navies stationed in the Lord City will receive a 100% base defense bonus.
 - The Lord title will be displayed next to your player level icon.
 
-## Lord Rules:
+## Lord Rules
 - Only cities you occupy can be designated as a Lord City.
 - **[Alliance Capital](../alliances/capital.md)** cannot be designated as a Lord City.
-- You can change your Lord City, but there is a 120-hour cooldown.
+- You can change your Lord City, but there is a 24-hour cooldown.
 - If your Lord City is captured by another player, all Lord effects will be removed.

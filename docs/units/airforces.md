@@ -44,14 +44,14 @@ Air forces can be equipped with **[aircraft](../weapons/aircraft.md)**. The numb
 - City **[fortifications](../cities/infrastructure.md#fortifications)** provide a +45% defense bonus against attacking air forces.
 
 ## Airport Support Defense (Auto-Interception)
-If a city is attacked and there is an airport within 100 km that has your air forces stationed, those air forces will automatically intercept the attacker.
+When a city is attacked, the nearest airport that has your air forces stationed will automatically send them to intercept the attacker.
 
 - Supporting air forces always engage the enemy first, before the city’s defenders.
 
 - This works whether the attacker is an Army, Navy, or Air Force.
 
-- Supporting units must be equipped and ready in the airport.
+- Supporting air forces must be equipped and ready in the airport.
 
-- Supporting units do not receive city defense bonuses.
+- Supporting air forces do not receive city defense bonuses, but they gain a 10% defense bonus when intercepting.
 
 - If defeated, they will return to the base.

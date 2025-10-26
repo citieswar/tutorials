@@ -5,7 +5,7 @@ When your alliance has 5 or more members and has occupied 20 or more cities, the
 ## Capital City
 - The Capital City can station up to 5 armies from different members.
 - Only members with the rank of Captain or above can see their alliance's Capital City.
-- There is a 24-hour cooldown for changing the Capital City.
+- There is a 6-hour cooldown for changing the Capital City.
 
 ## Attacking Rules
 - Only members of an alliance can attack another alliance’s Capital City.
