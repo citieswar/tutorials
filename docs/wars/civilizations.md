@@ -20,6 +20,5 @@ Each civilization consists of multiple cities, which include:
 	- The population of all cities in that civilization will be fully recovered.
 
 ## Restrictions
-- Civilization cities cannot be protected by **[alliance territory](../alliances/territory.md)**.
+- ~~Civilization cities cannot be protected by **[alliance territory](../alliances/territory.md)**.~~
 - Civilization cities cannot be chosen as **[rivalry](../alliances/rivalry.md)** cities.
-

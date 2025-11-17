@@ -35,6 +35,8 @@ Air forces can be equipped with **[aircraft](../weapons/aircraft.md)**. The numb
 
 - Airports cannot be targeted by Missiles, Armies, or Navies.
 
+- When the Air Force is the attacking side, its oil consumption will greatly increase, and the defending side receives a +10% defense bonus.
+
 ## Combat Bonuses
 
 - Air forces gain both Attack Boost and Defense Boost, each up to 100%.

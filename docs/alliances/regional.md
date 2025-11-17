@@ -1,4 +1,4 @@
-# Regional War
+# Regional War(Suspension)
 
 Alliance Regional Wars are tournaments held in a specific region. All alliances can participate.
 

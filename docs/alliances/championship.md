@@ -15,8 +15,8 @@ The goal is to expand your alliance’s area, population, and value — and earn
 - Final rankings are determined by the accumulated score throughout the season.
 - **Evaluation Factors:** 
 	- Alliance Territory Area(60%) 
-	- City Value within Alliance Territory(25%) 
-	- City Population within Alliance Territory(15%)
+	- Held Cities Value within Territory(25%) 
+	- Held Cities Population within Alliance Territory(15%)
 
 ## Rewards
 - The top 5 alliances will receive gem rewards.

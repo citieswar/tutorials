@@ -81,3 +81,4 @@ markdown_extensions:
   - admonition
   - footnotes
   - def_list
+  - pymdownx.tilde
