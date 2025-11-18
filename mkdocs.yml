@@ -70,6 +70,7 @@ nav:
   - General:
       - Player Levels: general/playerlevel.md
       - Newbie Protection: general/newbie.md
+      - Game Updates: general/updates.md
 
 plugins:
   - search
