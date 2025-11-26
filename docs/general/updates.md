@@ -4,6 +4,17 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## November 26, 2025 — Alliance Territory Championship Rewards
+**Summary:**  
+- Gem rewards are only granted to players who earn **more than 100 Medals** during the season  
+- All participating players receive **Resources and Gold** based on total Medals earned  
+- All rewards are **deposited into the Alliance Treasury**  
+- Added a new **Personal Medals Ranking** for the current season  
+- **Season History** now shows detailed information for all past seasons   
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1owuwur/cities_war_updates_november_14_2025_air_force/)
+
+
 ## November 14, 2025 — Air Force Balance Adjustments
 **Summary:**  
 - F-22 Raptor attack reduced from **2480 → 1680**  
