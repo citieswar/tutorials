@@ -12,7 +12,7 @@ This page records all game update logs, listed in reverse chronological order fo
 - Added a new **Personal Medals Ranking** for the current season  
 - **Season History** now shows detailed information for all past seasons   
 
-📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1owuwur/cities_war_updates_november_14_2025_air_force/)
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1p6w6kr/cities_war_updates_november_25_2025_alliance/)
 
 
 ## November 14, 2025 — Air Force Balance Adjustments
