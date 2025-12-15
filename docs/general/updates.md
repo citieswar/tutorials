@@ -4,6 +4,16 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## December 1, 2025 — Territory Tax Reintroduction
+**Summary:**  
+- Reintroduced a **Daily Territory Tax** to maintain balanced alliance competition  
+- Alliances with **less than 5,000,000 km²** pay **no tax**  
+- Alliances exceeding **5,000,000 km²** pay daily tax: **(Territory − 5,000,000) / 100**  
+- Tax is calculated every **10 minutes** and deducted proportionally from the alliance bank  
+- If the alliance bank lacks sufficient gold, the territory will **collapse due to unpaid taxes**  
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1pbug8c/cities_war_updates_december_1_2025_reintroduced/)
+
 ## November 26, 2025 — Alliance Territory Championship Rewards
 **Summary:**  
 - Gem rewards are only granted to players who earn **more than 100 Medals** during the season  

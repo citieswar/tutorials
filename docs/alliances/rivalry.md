@@ -4,7 +4,7 @@ A Rivalry is a small-scale war between two alliances, with two phases: Preparati
 
 The alliance leader selects 5 members to participate. Once matched, both sides enter the 12-hour preparation phase.
 
-After preparation, the system randomly selects 20 unoccupied cities as battle cities.
+After preparation, the system randomly selects 15 unoccupied cities as battle cities.
 
 ## Scoring
 - A score is the total number of minutes you hold battle cities during the 48h battle phase.
