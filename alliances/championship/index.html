@@ -1783,6 +1783,16 @@ The goal is to expand your alliance’s area, population, and value — and earn
 <li>Held Cities Population within Alliance Territory(15%)</li>
 </ul>
 </li>
+<li><strong>Score Calculation</strong> <ul>
+<li>When an alliance controls territory, score increases according to:<br>
+    Score Gain = <strong>Minutes × log(1 + (Area × 0.6 + TotalValue × 0.25 + TotalPopulation × 0.15))</strong></li>
+<li>When an alliance controls no territory, score may decrease. Alliances with a current score below 50% of the global average do not lose score. If the score is between 50% and 100% of the average, a gradually increasing penalty is applied: <br>
+    Penalty = <strong>log(1 + 1000) × ((CurrentScore − 50% of AverageScore) / (50% of AverageScore))</strong></li>
+<li>If the score is above the global average, a stronger penalty applies: <br>
+    Penalty = <strong>log(1 + 1000 + (CurrentScore − AverageScore) × 0.5)</strong></li>
+<li>The final score change is the sum of all gains and losses during the interval.</li>
+</ul>
+</li>
 </ul>
 <h2 id="rewards">Rewards<a class="headerlink" href="#rewards" title="Permanent link">&para;</a></h2>
 <ul>
