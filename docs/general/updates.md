@@ -4,6 +4,38 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## February 11, 2026 — Army/Navy/Air Force Edit Update
+**Summary:**  
+- Manual troop recruitment option has been removed  
+- Troop numbers are now automatically determined by equipped weapons  
+- Adding or removing weapons will auto-adjust troop counts based on required crew size  
+- Warning message appears in Edit interface if stationed city lacks sufficient recruitable troops  
+- Army and Navy retain a minimum of **10 troops** when edited; Air Force retains a minimum of **1 troop** 
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1r1we4r/cities_war_updates_february_11_2026_armynavyair/)
+
+## January 23, 2026 — Referral System
+**Summary:**  
+- Access your personal referral link via the **Share** button in the top-left  
+- Each player has a **unique referral link** tied to their account  
+- System tracks activity generated through the link, including:  
+  - New player registrations  
+  - Returning players rejoining the game  
+- Rewards are converted into **Gems** based on referral activity  
+- Earned Gems can be **claimed at any time** 
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1qkne8p/cities_war_updates_january_23_2026_referral_system/)
+
+## January 7, 2026 — Map System Update
+**Summary:**  
+- Game map migrated from **Google Maps** to a new **open-source map architecture**  
+- Google Maps watermarks removed  
+- Old UI is no longer supported; all players now use the **new UI**  
+- Players encouraged to test the new map system and report issues via Discord  
+- Marks the beginning of a new era for Cities War 
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1q68l0h/cities_war_updates_january_7_2026_map_system/)
+
 ## December 1, 2025 — Territory Tax Reintroduction
 **Summary:**  
 - Reintroduced a **Daily Territory Tax** to maintain balanced alliance competition  
