@@ -4,6 +4,16 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## March 2, 2026 — UI Enhancements & Bug Fixes
+**Summary:**  
+- Added new **animation effects** for names and flags on the map  
+- Introduced a **scrolling major events bar** at the bottom of the page with clickable details  
+- Achievements button now shows a **notification indicator** when a new achievement is unlocked  
+- Fixed an issue where **Dependencies** sometimes could not be established  
+- Fixed a glitch where **entire page text could accidentally be selected**  
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1rimjfh/cities_war_updates_march_2_2026_ui_enhancements/)
+
 ## February 11, 2026 — Army/Navy/Air Force Edit Update
 **Summary:**  
 - Manual troop recruitment option has been removed  
