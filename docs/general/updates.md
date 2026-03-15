@@ -4,6 +4,17 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## March 12, 2026 — Regional War Restarted
+**Summary:**  
+- Regional War has been **restarted**  
+- **Gems** can now be used to accelerate movement to regional war cities  
+- Removed display of the **winning alliance flag** on the map  
+- Removed the **daily resource bonus** previously granted to the winning alliance  
+- Bases can now be **relocated into the regional war area**  
+- **Protected players** cannot capture regional war cities  
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1rrr38e/cities_war_updates_march_12_2026_regional_war/)
+
 ## March 2, 2026 — UI Enhancements & Bug Fixes
 **Summary:**  
 - Added new **animation effects** for names and flags on the map  
@@ -104,6 +115,19 @@ This page records all game update logs, listed in reverse chronological order fo
 - Capital City cooldown reduced to **6 hours**  
 
 📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1oggpfz/cities_war_updates_october_26_2025_alliance/)
+
+## October 21, 2025 — Regional War Reward Cap
+**Summary:**  
+- Introduced reward limits to maintain fair balance and sustainable progression  
+- **Alliance Bank Cap:** alliances stop receiving Gold rewards once bank reaches level limit  
+- **Personal Treasury Weapon Limits:**  
+  - Army Weapons: **1,000**  
+  - Navy Weapons: **25**  
+  - Air Force Weapons: **300**  
+- Limits apply only to **rewarded weapons stored in the Treasury**  
+- Change does **not affect the current Regional War** and will apply starting from the **next season**  
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1oc08ow/regional_war_reward_cap/)
 
 ## October 9, 2025 — Newbie Protection & Fair Battle Adjustments
 **Summary:**  
