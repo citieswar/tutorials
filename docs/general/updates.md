@@ -4,6 +4,18 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## April 7, 2026 — Conquer System Improvements & Bug Fixes
+**Summary:**  
+- Added a new **Conquer window** showing current conquered cities and full conquest history  
+- Window automatically pops up on new conquests (can disable via **"Show on new conquests"**)  
+- Accessible anytime via **Conquer → Conquer Cities**  
+- Conquest history supports **time sorting** and **infinite scroll loading**  
+- Added **Find Targets** feature to discover unconquered cities  
+- Reduced 'Tournament Champion' achievement max medals **5000 → 2000**  
+- Fixed issue with editing army in alliance capital 
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1setysp/cities_war_updates_april_7_2026_conquer_system/)
+
 ## March 12, 2026 — Regional War Restarted
 **Summary:**  
 - Regional War has been **restarted**  
