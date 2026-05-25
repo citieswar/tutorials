@@ -4,6 +4,28 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## May 11, 2026 — Alliance Diplomacy System Update (Phase 1)
+**Summary:**  
+- Removed previous **Active / Passive** one-way alliance relationships  
+- All existing **None** relationships renamed to **Neutral**  
+- Forming **Allied** or **NAP** relations now requires approval from the target alliance's Leader or Co-Leaders  
+- Allied and NAP alliances can no longer attack each other's cities  
+- Allied alliances no longer block each other's territories  
+- Added new **Embargo** relation; embargoed alliances cannot pass through your cities  
+- Alliances at **War** can only return to Neutral through an accepted **Offer Peace** request  
+
+### Alliance Relations Overview
+
+| Relation | Requires Consent | Route Blocked | Territory Blocked | Can Attack |
+|---|---|---|---|---|
+| Neutral | No | No | Yes | Yes |
+| Allied | Yes | No | No | No |
+| NAP | Yes | No | Yes | No |
+| Embargo | No | Yes | Yes | Yes |
+| At War | No | Yes | Yes | Yes |
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1t9xl2h/cities_war_updates_may_11_2026_alliance_diplomacy/)
+
 ## April 7, 2026 — Conquer System Improvements & Bug Fixes
 **Summary:**  
 - Added a new **Conquer window** showing current conquered cities and full conquest history  
