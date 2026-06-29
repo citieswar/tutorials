@@ -23,7 +23,7 @@
 	* Total Territory Area
 	* Total Population
 
-	Each factor has diminishing returns, ensuring balanced rewards for both small and large dominions.
+	Each factor provides diminishing returns, so expanding your dominion remains rewarding while preventing excessively large dominions from gaining overwhelming advantages.
 
 	The final reward is automatically converted into resources based on each resource's relative value.
 
