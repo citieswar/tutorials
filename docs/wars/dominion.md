@@ -18,14 +18,14 @@
 
 ## Dominion Rewards
 - You can receive daily resource rewards based on the overall strength of your dominion, including:
-* City Count
-* Total City Value
-* Total Territory Area
-* Total Population
+	* City Count
+	* Total City Value
+	* Total Territory Area
+	* Total Population
 
-Each factor has diminishing returns, ensuring balanced rewards for both small and large dominions.
+	Each factor has diminishing returns, ensuring balanced rewards for both small and large dominions.
 
-The final reward is automatically converted into '''Oil''', '''Steel''', '''Food''', '''Rare''', and '''Uranium''' based on each resource's relative value.
+	The final reward is automatically converted into resources based on each resource's relative value.
 
 - If your Dominion is destroyed by an enemy, the reward timer resets.
 - If you leave or lose your Dominion voluntarily, the reward timer pauses and resumes from the last reward time once a new Dominion is established.
