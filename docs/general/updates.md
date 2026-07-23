@@ -4,6 +4,20 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## July 22, 2026 — Alliance Diplomacy System Update (Phase 2)
+**Summary:**  
+- Added the **Alliance Wars** system; wars are automatically created when an alliance declares war through diplomacy  
+- Active wars can be viewed via **War → Active Wars**  
+- Alliance Leaders and Co-Leaders can apply to join either side; leader alliance approves or rejects applications  
+- War side leaders can customize their **Side Name**, **Flag**, and **Declaration**  
+- Alliances may **Resign** from a war at any time, but cannot rejoin the same war; all contributions remain recorded  
+- Wars can end through **Offer Peace** (mutual agreement) or **Capitulate** (immediate surrender)  
+- Ended wars are archived in **War History** with permanent battle statistics and records  
+- Wars automatically end after **30 days** if still active  
+- Each alliance can participate in up to **3 active wars**, with up to **5 alliances per side**  
+- Only wars where **both sides earn at least 1,000 medals** are recorded in War History  
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1v3b036/cities_war_updates_july_22_2026_alliance/)
+
 ## May 11, 2026 — Alliance Diplomacy System Update (Phase 1)
 **Summary:**  
 - Removed previous **Active / Passive** one-way alliance relationships  
