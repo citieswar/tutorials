@@ -1822,20 +1822,21 @@
 <li>You can click the 'History' button to view the expansion history of your Dominion territory.</li>
 </ul>
 <h2 id="dominion-rewards">Dominion Rewards<a class="headerlink" href="#dominion-rewards" title="Permanent link">&para;</a></h2>
+<p>Dominion rewards are based on the number of cities in your Dominion.</p>
+<p>The reward uses a diminishing-return formula:</p>
+<p><strong>Reward = 10000 * (1 - EXP(-@CityCount / 10.0)) * 10</strong></p>
+<p>As your city count increases, the reward increases but at a decreasing rate. This means that each additional city provides a smaller increase in rewards than the previous one.</p>
+<p>The final reward is divided equally among the five resources and converted according to their relative values:</p>
 <ul>
-<li>
-<p>You can receive daily resource rewards based on the overall strength of your dominion.</p>
-<ul>
-<li>Dominion rewards scale with the number of cities you have in your Dominion.</li>
-<li>The more cities you have in your Dominion, the greater your rewards. Rewards increase quickly at lower city counts and continue to grow gradually as the number of cities increases.</li>
-<li>At 100 cities, the reward reaches its initial level, and further expansion can increase the reward by up to 40%.</li>
+<li>Oil: 0.6</li>
+<li>Steel: 0.3</li>
+<li>Food: 0.7</li>
+<li>Rare: 1.0</li>
+<li>Uranium: 4.9</li>
 </ul>
-</li>
-<li>
+<p>At 100 cities, the reward reaches its initial level, and further expansion can increase the reward by up to 40%.</p>
 <p>If your Dominion is destroyed by an enemy, the reward timer resets.</p>
-</li>
-<li>If you leave or lose your Dominion voluntarily, the reward timer pauses and resumes from the last reward time once a new Dominion is established.</li>
-</ul>
+<p>If you leave or lose your Dominion voluntarily, the reward timer pauses and resumes from the last reward time once a new Dominion is established.</p>
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <ul>
 <li>A Dominion can be set within <strong><a href="../../alliances/territory/">alliance territory</a></strong>, but it is not protected by the alliance.</li>
