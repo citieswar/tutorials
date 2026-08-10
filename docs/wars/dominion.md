@@ -17,15 +17,10 @@
 - You can click the 'History' button to view the expansion history of your Dominion territory.
 
 ## Dominion Rewards
-- You can receive daily resource rewards based on the overall strength of your dominion, including:
-	* City Count
-	* Total City Value
-	* Total Territory Area
-	* Total Population
-
-	Each factor provides diminishing returns, so expanding your dominion remains rewarding while preventing excessively large dominions from gaining overwhelming advantages.
-
-	The final reward is automatically converted into resources based on each resource's relative value.
+- You can receive daily resource rewards based on the overall strength of your dominion.
+	* Dominion rewards scale with the number of cities you have in your Dominion.
+	* The more cities you have in your Dominion, the greater your rewards. Rewards increase quickly at lower city counts and continue to grow gradually as the number of cities increases.
+	* At 100 cities, the reward reaches its initial level, and further expansion can increase the reward by up to 40%.
 
 - If your Dominion is destroyed by an enemy, the reward timer resets.
 - If you leave or lose your Dominion voluntarily, the reward timer pauses and resumes from the last reward time once a new Dominion is established.

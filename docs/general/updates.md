@@ -3,6 +3,22 @@
 This page records all game update logs, listed in reverse chronological order for easy reference.
 
 ---
+## August 9, 2026 — Dominion Reward Improvements & Reduced Medals Costs
+**Summary:**  
+- Dominion rewards now scale with the **number of cities** in your Dominion  
+- Rewards increase rapidly at lower city counts and continue to grow gradually afterward  
+- At **100 cities**, the reward reaches its initial level; further expansion can increase rewards by up to **40%**  
+- Reduced Medal costs for Dominion upgrades:  
+  - Attack Boost: **10 → 8**  
+  - Air Force Defense Boost: **10 → 8**  
+  - City Hall: **30 → 25**  
+  - Fortifications: **30 → 25**  
+  - Connector: **200 → 150**  
+  - Scout: **Unchanged**  
+  - Anti-Scout: **Unchanged**  
+- Regional War cities are no longer protected by **Alliance Territory**  
+- Scout reports can now be viewed directly in **System Notifications**  
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1vk48nd/cities_war_updates_august_9_2026_dominion_reward/)
 
 ## July 22, 2026 — Alliance Diplomacy System Update (Phase 2)
 **Summary:**  
