@@ -17,13 +17,28 @@
 - You can click the 'History' button to view the expansion history of your Dominion territory.
 
 ## Dominion Rewards
-- You can receive daily resource rewards based on the overall strength of your dominion.
-	* Dominion rewards scale with the number of cities you have in your Dominion.
-	* The more cities you have in your Dominion, the greater your rewards. Rewards increase quickly at lower city counts and continue to grow gradually as the number of cities increases.
-	* At 100 cities, the reward reaches its initial level, and further expansion can increase the reward by up to 40%.
+Dominion rewards are based on the number of cities in your Dominion.
 
-- If your Dominion is destroyed by an enemy, the reward timer resets.
-- If you leave or lose your Dominion voluntarily, the reward timer pauses and resumes from the last reward time once a new Dominion is established.
+The reward uses a diminishing-return formula:
+
+**Reward = 10000 * (1 - EXP(-@CityCount / 10.0)) * 10**
+
+As your city count increases, the reward increases but at a decreasing rate. This means that each additional city provides a smaller increase in rewards than the previous one.
+
+The final reward is divided equally among the five resources and converted according to their relative values:
+
+* Oil: 0.6
+* Steel: 0.3
+* Food: 0.7
+* Rare: 1.0
+* Uranium: 4.9
+
+
+At 100 cities, the reward reaches its initial level, and further expansion can increase the reward by up to 40%.
+
+If your Dominion is destroyed by an enemy, the reward timer resets.
+
+If you leave or lose your Dominion voluntarily, the reward timer pauses and resumes from the last reward time once a new Dominion is established.
 
 ## Notes
 - A Dominion can be set within **[alliance territory](../alliances/territory.md)**, but it is not protected by the alliance.
