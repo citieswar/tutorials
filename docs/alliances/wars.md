@@ -45,8 +45,3 @@ Once a war ends, it is moved to **War History**, where detailed battle statistic
 - Each alliance can participate in up to **3 active wars** at the same time.
 - Each side of a war can contain up to **5 alliances**.
 - A war is recorded in **War History** only if **both sides have earned at least 1,000 Medals** during the war.
-
-!!! note "Diplomacy Reset"
-    All existing alliance diplomatic relationships that are currently set to **At War** will be automatically changed to **Neutral**.
-
-    This reset is required to transition existing diplomatic relationships to the new **Alliance War** system.
