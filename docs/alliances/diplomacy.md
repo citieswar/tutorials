@@ -39,13 +39,13 @@ An alliance can impose an **Embargo** on another alliance without requiring appr
 
 ## At War
 
-When two alliances are **At War**, the relationship cannot be changed directly.
+When two alliances are [At War](../alliances/wars.md), the relationship cannot be changed directly.
 
 To end the war:
 
-1. One alliance must send an **Offer Peace** request.
-2. The opposing alliance must accept the request.
-3. The relationship will then become **Neutral**.
+- One alliance must send an **Offer Peace** request.
+- The opposing alliance must accept the request.
+- The relationship will then become **Neutral**.
 
 While two alliances are At War:
 
