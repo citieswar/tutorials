@@ -3,6 +3,13 @@
 This page records all game update logs, listed in reverse chronological order for easy reference.
 
 ---
+## August 31, 2026 — Market Resource Selling Limit & Alliance War Events
+**Summary:**  
+- Resource market listings are limited to **50% of your maximum resource storage capacity** per resource type  
+- Added **Alliance War Events** to display important events during a war  
+- War Events now include **Monument Established** and **Alliance Capital Captured** 
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1w3c727/cities_war_updates_august_31_2026_market_resource/)
+
 ## August 9, 2026 — Dominion Reward Improvements & Reduced Medals Costs
 **Summary:**  
 - Dominion rewards now scale with the **number of cities** in your Dominion  
