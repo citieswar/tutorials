@@ -3,6 +3,18 @@
 This page records all game update logs, listed in reverse chronological order for easy reference.
 
 ---
+## In-Game POTY
+**Summary:**  
+- Added the **POTY system** directly in-game  
+- POTY score is based on four key achievements:  
+  - Login: **5 pts / day**  
+  - Medals: **1 pt / medal**  
+  - Monuments: **75 pts / monument**  
+  - Holding Cities: **0.2 pts / hour**  
+- Added a **trophy button** in the top-left to view your personal POTY score and ranking  
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1wakizv/cities_war_updates_september_8_2026_ingame_poty/)
+
 ## August 31, 2026 — Market Resource Selling Limit & Alliance War Events
 **Summary:**  
 - Resource market listings are limited to **50% of your maximum resource storage capacity** per resource type  
