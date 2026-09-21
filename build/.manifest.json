@@ -1,0 +1,165 @@
+{
+  "gen_version": "2",
+  "pages": {
+    "alliances-bank": {
+      "src_hash": "09b45d0735",
+      "out_hash": "f03ef7db36"
+    },
+    "alliances-capital": {
+      "src_hash": "7497e5d712",
+      "out_hash": "652bf645fe"
+    },
+    "alliances-championship": {
+      "src_hash": "15799ae149",
+      "out_hash": "7960d2143d"
+    },
+    "alliances-diplomacy": {
+      "src_hash": "e02b35ce2d",
+      "out_hash": "3d3add86e8"
+    },
+    "alliances-hierarchy": {
+      "src_hash": "d43c1443be",
+      "out_hash": "c8dd70fcf6"
+    },
+    "alliances-level": {
+      "src_hash": "d4e01ab828",
+      "out_hash": "61bad37f36"
+    },
+    "alliances-overview": {
+      "src_hash": "25cf96177e",
+      "out_hash": "d4fb13caff"
+    },
+    "alliances-regional": {
+      "src_hash": "6e7ebd5517",
+      "out_hash": "a0577b07f4"
+    },
+    "alliances-rivalry": {
+      "src_hash": "50bbd49be5",
+      "out_hash": "42be62c6d7"
+    },
+    "alliances-territory": {
+      "src_hash": "03233fe731",
+      "out_hash": "c21d327cb5"
+    },
+    "alliances-wars": {
+      "src_hash": "195400a7aa",
+      "out_hash": "3edae0abc8"
+    },
+    "cities-airports": {
+      "src_hash": "af8b045ffe",
+      "out_hash": "9cf839b93f"
+    },
+    "cities-attributes": {
+      "src_hash": "1e101f73df",
+      "out_hash": "f5fd319d13"
+    },
+    "cities-durability": {
+      "src_hash": "7adbe45e3e",
+      "out_hash": "93746b4977"
+    },
+    "cities-infrastructure": {
+      "src_hash": "6254420999",
+      "out_hash": "406af4c08f"
+    },
+    "cities-overview": {
+      "src_hash": "9ab6f14aac",
+      "out_hash": "c796b23826"
+    },
+    "cities-request": {
+      "src_hash": "192ba135a7",
+      "out_hash": "0df44fcda1"
+    },
+    "cities-routes": {
+      "src_hash": "ec6ef583e5",
+      "out_hash": "c022150246"
+    },
+    "economy-gems": {
+      "src_hash": "97f21e1ef5",
+      "out_hash": "c2f726672e"
+    },
+    "economy-gold": {
+      "src_hash": "e179f3b522",
+      "out_hash": "fcd0f76a1b"
+    },
+    "economy-market": {
+      "src_hash": "2f114c1212",
+      "out_hash": "5614153547"
+    },
+    "economy-resources": {
+      "src_hash": "b617f5463b",
+      "out_hash": "616b982d20"
+    },
+    "general-newbie": {
+      "src_hash": "7da60db1ce",
+      "out_hash": "0420d874eb"
+    },
+    "general-playerlevel": {
+      "src_hash": "ed0779caf6",
+      "out_hash": "5f228a9faa"
+    },
+    "general-updates": {
+      "src_hash": "f35e44a218",
+      "out_hash": "dca6672530"
+    },
+    "index": {
+      "src_hash": "eaa7fbfa8c",
+      "out_hash": "8afe01f7ad"
+    },
+    "units-airforces": {
+      "src_hash": "6a6cac8ae0",
+      "out_hash": "538685d2ee"
+    },
+    "units-armies": {
+      "src_hash": "423a8d91bd",
+      "out_hash": "8cfe884a35"
+    },
+    "units-missiles": {
+      "src_hash": "3a2cfb336f",
+      "out_hash": "4b86ce6fa0"
+    },
+    "units-navies": {
+      "src_hash": "f0892c3560",
+      "out_hash": "c5edfd0435"
+    },
+    "wars-civilizations": {
+      "src_hash": "3c8b4499d0",
+      "out_hash": "5fd4e3f505"
+    },
+    "wars-combat": {
+      "src_hash": "b4fdbbc5fb",
+      "out_hash": "0b47f5ae0b"
+    },
+    "wars-country": {
+      "src_hash": "10d2cc9bcf",
+      "out_hash": "4ddd3f4434"
+    },
+    "wars-dominion": {
+      "src_hash": "844a9cbc22",
+      "out_hash": "a77ea8582b"
+    },
+    "weapons-aircraft": {
+      "src_hash": "100cf66d29",
+      "out_hash": "8b310bff92"
+    },
+    "weapons-firearm": {
+      "src_hash": "43cbc41a3a",
+      "out_hash": "b7a6d9b18b"
+    },
+    "weapons-missiles": {
+      "src_hash": "7b3db2b5ae",
+      "out_hash": "3c02581043"
+    },
+    "weapons-overview": {
+      "src_hash": "7208e4bed6",
+      "out_hash": "ea5149be47"
+    },
+    "weapons-ships": {
+      "src_hash": "afb195173f",
+      "out_hash": "eae8db4a88"
+    },
+    "weapons-tanks": {
+      "src_hash": "307377e679",
+      "out_hash": "439d2a6f40"
+    }
+  }
+}

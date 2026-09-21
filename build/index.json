@@ -1,0 +1,242 @@
+{
+  "site_name": "Cities War Tutorials",
+  "nav": [
+    {
+      "title": "Getting Started",
+      "page": "index"
+    },
+    {
+      "title": "Cities",
+      "children": [
+        {
+          "title": "Overview",
+          "page": "cities-overview"
+        },
+        {
+          "title": "Attributes",
+          "page": "cities-attributes"
+        },
+        {
+          "title": "City Infrastructure",
+          "page": "cities-infrastructure"
+        },
+        {
+          "title": "City Durability",
+          "page": "cities-durability"
+        },
+        {
+          "title": "Routes",
+          "page": "cities-routes"
+        },
+        {
+          "title": "Airports",
+          "page": "cities-airports"
+        },
+        {
+          "title": "Request",
+          "page": "cities-request"
+        }
+      ]
+    },
+    {
+      "title": "Economy",
+      "children": [
+        {
+          "title": "Resources",
+          "page": "economy-resources"
+        },
+        {
+          "title": "Gold",
+          "page": "economy-gold"
+        },
+        {
+          "title": "Gems",
+          "page": "economy-gems"
+        },
+        {
+          "title": "Market",
+          "page": "economy-market"
+        }
+      ]
+    },
+    {
+      "title": "Units",
+      "children": [
+        {
+          "title": "Armies",
+          "page": "units-armies"
+        },
+        {
+          "title": "Navies",
+          "page": "units-navies"
+        },
+        {
+          "title": "Air Forces",
+          "page": "units-airforces"
+        },
+        {
+          "title": "Missiles",
+          "page": "units-missiles"
+        }
+      ]
+    },
+    {
+      "title": "Weapons",
+      "children": [
+        {
+          "title": "Overview",
+          "page": "weapons-overview"
+        },
+        {
+          "title": "Firearm & Artillery",
+          "page": "weapons-firearm"
+        },
+        {
+          "title": "Tanks",
+          "page": "weapons-tanks"
+        },
+        {
+          "title": "Ships",
+          "page": "weapons-ships"
+        },
+        {
+          "title": "Aircraft",
+          "page": "weapons-aircraft"
+        },
+        {
+          "title": "Missiles",
+          "page": "weapons-missiles"
+        }
+      ]
+    },
+    {
+      "title": "Alliances",
+      "children": [
+        {
+          "title": "Overview",
+          "page": "alliances-overview"
+        },
+        {
+          "title": "Alliance Capital",
+          "page": "alliances-capital"
+        },
+        {
+          "title": "Alliance Territory",
+          "page": "alliances-territory"
+        },
+        {
+          "title": "Regional War",
+          "page": "alliances-regional"
+        },
+        {
+          "title": "Territory Championship",
+          "page": "alliances-championship"
+        },
+        {
+          "title": "Rivalry",
+          "page": "alliances-rivalry"
+        },
+        {
+          "title": "Diplomacy",
+          "page": "alliances-diplomacy"
+        },
+        {
+          "title": "Wars",
+          "page": "alliances-wars"
+        },
+        {
+          "title": "Alliance Bank",
+          "page": "alliances-bank"
+        },
+        {
+          "title": "Alliance Hierarchy",
+          "page": "alliances-hierarchy"
+        },
+        {
+          "title": "Alliance Levels",
+          "page": "alliances-level"
+        }
+      ]
+    },
+    {
+      "title": "Wars & Conquest",
+      "children": [
+        {
+          "title": "Combat System",
+          "page": "wars-combat"
+        },
+        {
+          "title": "Country",
+          "page": "wars-country"
+        },
+        {
+          "title": "Dominion",
+          "page": "wars-dominion"
+        },
+        {
+          "title": "Civilizations",
+          "page": "wars-civilizations"
+        }
+      ]
+    },
+    {
+      "title": "General",
+      "children": [
+        {
+          "title": "Player Levels",
+          "page": "general-playerlevel"
+        },
+        {
+          "title": "Newbie Protection",
+          "page": "general-newbie"
+        },
+        {
+          "title": "Game Updates",
+          "page": "general-updates"
+        }
+      ]
+    }
+  ],
+  "versions": {
+    "alliances-bank": "f03ef7db36",
+    "alliances-capital": "652bf645fe",
+    "alliances-championship": "7960d2143d",
+    "alliances-diplomacy": "3d3add86e8",
+    "alliances-hierarchy": "c8dd70fcf6",
+    "alliances-level": "61bad37f36",
+    "alliances-overview": "d4fb13caff",
+    "alliances-regional": "a0577b07f4",
+    "alliances-rivalry": "42be62c6d7",
+    "alliances-territory": "c21d327cb5",
+    "alliances-wars": "3edae0abc8",
+    "cities-airports": "9cf839b93f",
+    "cities-attributes": "f5fd319d13",
+    "cities-durability": "93746b4977",
+    "cities-infrastructure": "406af4c08f",
+    "cities-overview": "c796b23826",
+    "cities-request": "0df44fcda1",
+    "cities-routes": "c022150246",
+    "economy-gems": "c2f726672e",
+    "economy-gold": "fcd0f76a1b",
+    "economy-market": "5614153547",
+    "economy-resources": "616b982d20",
+    "general-newbie": "0420d874eb",
+    "general-playerlevel": "5f228a9faa",
+    "general-updates": "dca6672530",
+    "index": "8afe01f7ad",
+    "units-airforces": "538685d2ee",
+    "units-armies": "8cfe884a35",
+    "units-missiles": "4b86ce6fa0",
+    "units-navies": "c5edfd0435",
+    "wars-civilizations": "5fd4e3f505",
+    "wars-combat": "0b47f5ae0b",
+    "wars-country": "4ddd3f4434",
+    "wars-dominion": "a77ea8582b",
+    "weapons-aircraft": "8b310bff92",
+    "weapons-firearm": "b7a6d9b18b",
+    "weapons-missiles": "3c02581043",
+    "weapons-overview": "ea5149be47",
+    "weapons-ships": "eae8db4a88",
+    "weapons-tanks": "439d2a6f40"
+  }
+}

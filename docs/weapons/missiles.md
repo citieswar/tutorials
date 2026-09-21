@@ -11,4 +11,4 @@
 | GHOST | 9,150 | 11,500 | 4,600 | 4,700   | 11,900| 160,000 | 35,000        | 3,000         | 20,000        | 2        | 20           | Yes       |
 
 
-> Note: Anonymous missile that will hide the attacker‘s name when you attack someone. The medals earned will not be counted in the Battle Tournament.
+> Note: Anonymous missile that will hide the attacker‘s name when you attack someone. The medals earned will not be counted in the Battle Tournament and Alliance War.

@@ -10,12 +10,12 @@ If a city containing the resource is controlled by another player, you must pay 
 Oil is a critical resource used to fuel military operations and equipment.
 
 - **Consumption During March**: Troops equipped with **[tanks](../weapons/tanks.md)**, **[naval ships](../weapons/ships.md)**, or **[aircraft](../weapons/aircraft.md)** consume Oil when marching. The amount consumed is calculated based on the number of equipment and the distance traveled.
-- **Missile Production**: Oil is also required for the manufacture of **[missiles](../weapons/missiles.md)**.
+- **Missile Production**: Oil is also required for the manufacture of **[missiles](../units/missiles.md)**.
 - **Stationed Troops**: When troops are stationed in a city, their equipment consumes Oil daily.
 - **Insufficient Storage**: If your warehouse lacks enough Oil, stationed troops will leave the city and return to their base, causing the city to be lost.
 
 ## Steel
-Steel is an essential resource required for the production of all weapons and missiles.
+Steel is an essential resource required for the production of all weapons and **[missiles](../units/missiles.md)**.
 
 ## Food
 Food is a vital resource required for troop movement and maintenance.
@@ -25,8 +25,8 @@ Food is a vital resource required for troop movement and maintenance.
 - **Population Recovery**: Food can be used to restore a city’s population. Click on a city you occupy, then click Population to open the recovery dialog. You can track the number of people you have revived, and the Players Revived People ranking can be viewed under the Population tab in the trends menu. Players receive 100 Gems for every 1 million accumulated people revived.
 
 ## Rare Earth
-Rare Earth is a crucial resource required for the production of high-end weapons and missiles.
+Rare Earth is a crucial resource required for the production of high-end weapons and **[missiles](../units/missiles.md)**.
 
 ## Uranium
-Uranium is a critical resource required for the production of submarines and missiles.
+Uranium is a critical resource required for the production of submarines and **[missiles](../units/missiles.md)**.
 

@@ -3,7 +3,7 @@
 This page records all game update logs, listed in reverse chronological order for easy reference.
 
 ---
-## In-Game POTY
+## September 8, 2026 - In-Game POTY
 **Summary:**  
 - Added the **POTY system** directly in-game  
 - POTY score is based on four key achievements:  

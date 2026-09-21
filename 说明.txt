@@ -1,0 +1,12 @@
+本地
+mkdocs serve
+http://127.0.0.1:8000
+
+更新服务器
+deploy.bat
+
+*************************************
+游戏内html生成
+python E:\War\wiki\build_wiki.py
+浏览
+http://localhost:8888/preview.html

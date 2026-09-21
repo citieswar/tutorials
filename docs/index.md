@@ -1,7 +1,7 @@
 # Overview
 
 Welcome to Cities War, a multiplayer online strategy game built on a 1:1 map of Earth.  
-In this world, real cities become the battleground. With over 11,000 **[cities](cities/overview.md)** already available—and the number constantly growing—you’ll compete with players worldwide to conquer and control them.
+In this world, real cities become the battleground. With over 12,000 **[cities](cities/overview.md)** already available—and the number constantly growing—you’ll compete with players worldwide to conquer and control them.
 
 ## Key Features
 - **Conquer Real Cities**: Deploy your forces to capture cities across the globe, each with strategic value.

@@ -1,0 +1,176 @@
+.wiki-panel {
+    font-family: "Rajdhani", "Segoe UI", sans-serif;
+    font-size: 15px;
+    color: #e0e0e0;
+    background: #1e1e1e;
+    line-height: 1.7;
+    padding: 20px;
+    overflow-y: auto;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+.wiki-panel h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #e0bf6c;
+    margin: 0 0 16px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #3a3a3a;
+}
+
+.wiki-panel h2 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #d4a843;
+    margin: 24px 0 10px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #333;
+}
+
+.wiki-panel h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #c0c0c0;
+    margin: 18px 0 8px 0;
+}
+
+.wiki-panel p {
+    margin: 8px 0;
+    color: #d0d0d0;
+}
+
+.wiki-panel strong {
+    color: #f0f0f0;
+}
+
+.wiki-panel em {
+    color: #b8b8b8;
+    font-style: italic;
+}
+
+.wiki-panel a {
+    color: #7ab8f5;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.wiki-panel a:hover {
+    color: #a8d4ff;
+    text-decoration: underline;
+}
+
+.wiki-panel ul,
+.wiki-panel ol {
+    margin: 8px 0;
+    padding-left: 24px;
+}
+
+.wiki-panel li {
+    margin: 4px 0;
+    color: #d0d0d0;
+}
+
+.wiki-panel li::marker {
+    color: #888;
+}
+
+.wiki-panel table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 13px;
+}
+
+.wiki-panel thead th {
+    background: #3a3a3a;
+    color: #e0bf6c;
+    font-weight: 600;
+    padding: 8px 10px;
+    border: 1px solid #4a4a4a;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.wiki-panel tbody td {
+    background: #2a2a2a;
+    color: #d0d0d0;
+    padding: 6px 10px;
+    border: 1px solid #3a3a3a;
+}
+
+.wiki-panel tbody tr:nth-child(even) td {
+    background: #252525;
+}
+
+.wiki-panel tbody tr:hover td {
+    background: #333;
+}
+
+.wiki-panel code {
+    background: #2d2d2d;
+    color: #e8c87a;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "Roboto Mono", "Consolas", monospace;
+    font-size: 13px;
+}
+
+.wiki-panel pre {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 12px;
+    overflow-x: auto;
+    margin: 10px 0;
+}
+
+.wiki-panel pre code {
+    background: none;
+    padding: 0;
+    color: #d4d4d4;
+}
+
+.wiki-panel blockquote {
+    border-left: 3px solid #e0bf6c;
+    margin: 10px 0;
+    padding: 8px 14px;
+    background: #252525;
+    color: #aaa;
+    border-radius: 0 4px 4px 0;
+}
+
+.wiki-panel blockquote p {
+    margin: 4px 0;
+    color: #bbb;
+}
+
+.wiki-panel hr {
+    border: none;
+    border-top: 1px solid #3a3a3a;
+    margin: 16px 0;
+}
+
+.wiki-panel img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+.wiki-panel::-webkit-scrollbar {
+    width: 6px;
+}
+
+.wiki-panel::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.wiki-panel::-webkit-scrollbar-thumb {
+    background: #4a4a4a;
+    border-radius: 3px;
+}
+
+.wiki-panel::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}

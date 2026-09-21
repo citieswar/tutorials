@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Preview</title>
+    <link rel="stylesheet" href="wiki.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #111; font-family: "Rajdhani", "Segoe UI", sans-serif; height: 100vh; display: flex; }
+
+        /* ===== 桌面：左侧目录树 ===== */
+        .wiki-sidebar { width: 260px; background: #1a1a1a; border-right: 1px solid #333; overflow-y: auto; padding: 15px 0; flex-shrink: 0; }
+        .wiki-sidebar h2 { color: #e0bf6c; font-size: 16px; padding: 0 15px 12px; border-bottom: 1px solid #333; margin-bottom: 8px; }
+        .nav-group-title { color: #999; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; padding: 10px 15px 4px; }
+        .nav-item { display: block; color: #ccc; padding: 5px 15px 5px 25px; font-size: 14px; cursor: pointer; transition: background .15s, color .15s; }
+        .nav-item:hover { background: #2a2a2a; color: #fff; }
+        .nav-item.active { background: #333; color: #e0bf6c; border-left: 3px solid #e0bf6c; padding-left: 22px; }
+
+        /* ===== 主区 ===== */
+        .wiki-main { flex: 1; display: flex; flex-direction: column; overflow: hidden; min-width: 0; }
+        .wiki-toolbar { background: #252525; border-bottom: 1px solid #333; padding: 8px 16px; display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+        .wiki-back { color: #7ab8f5; font-size: 13px; cursor: pointer; user-select: none; }
+        .wiki-back:hover { color: #a8d4ff; }
+        .wiki-back.disabled { color: #555; cursor: default; }
+        .breadcrumb { color: #888; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .breadcrumb span { color: #e0bf6c; }
+        .wiki-content-wrap { flex: 1; overflow-y: auto; }
+
+        /* ===== 手机：顶部大类导航条 + 下拉分支 ===== */
+        .wiki-topnav { position: relative; flex-shrink: 0; background: #1a1a1a; border-bottom: 1px solid #333; display: none; }
+        .tn-bar { display: flex; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
+        .tn-bar::-webkit-scrollbar { height: 0; }
+        .tn-item { flex-shrink: 0; padding: 11px 13px; color: #ccc; font-size: 13px; cursor: pointer; border-bottom: 2px solid transparent; }
+        .tn-item:active { background: #242424; }
+        .tn-item.active { color: #e0bf6c; border-bottom-color: #e0bf6c; }
+        .tn-cat.expanded { color: #fff; background: #242424; }
+        .tn-arrow { font-size: 9px; margin-left: 3px; color: #888; }
+        .tn-dropdown { position: absolute; top: 100%; left: 0; right: 0; background: #161616; border-bottom: 1px solid #333; max-height: 45vh; overflow-y: auto; display: none; z-index: 20; box-shadow: 0 6px 12px rgba(0,0,0,.5); }
+        .tn-dropdown.open { display: block; }
+        .tn-sub { display: block; padding: 12px 16px; color: #ccc; font-size: 13px; cursor: pointer; border-bottom: 1px solid #232323; }
+        .tn-sub:active { background: #2a2a2a; color: #e0bf6c; }
+
+        /* 手机模式：竖向布局，隐藏侧边栏，显示顶部导航 */
+        body.mobile-mode { flex-direction: column; }
+        body.mobile-mode .wiki-sidebar { display: none; }
+        body.mobile-mode .wiki-topnav { display: block; }
+    </style>
+</head>
+<body>
+    <!-- 桌面：左侧目录树 -->
+    <div class="wiki-sidebar">
+        <h2>Cities War Wiki</h2>
+        <div id="nav-tree"></div>
+    </div>
+
+    <div class="wiki-main">
+        <!-- 手机：顶部大类导航条（点击展开下拉分支） -->
+        <div class="wiki-topnav">
+            <div class="tn-bar" id="top-nav"></div>
+            <div class="tn-dropdown" id="tn-dropdown"></div>
+        </div>
+        <div class="wiki-toolbar">
+            <span class="wiki-back disabled" id="back-btn">&#8249; Back</span>
+            <div class="breadcrumb" id="breadcrumb">Wiki / <span>Getting Started</span></div>
+        </div>
+        <div class="wiki-content-wrap">
+            <div class="wiki-panel" id="wiki-content" style="height:100%;">
+                <p style="color:#666;">Loading...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    let navData = null;
+    let currentPage = '';
+    let history = [];
+    let lastTitle = '', lastGroup = '';
+    const MOBILE_BP = 768;
+
+    const isMobile = () => window.innerWidth < MOBILE_BP;
+
+    async function init() {
+        navData = await (await fetch('index.json')).json();
+        renderSidebar();
+        renderTopNav();
+        applyMode();
+        loadPage('index', 'Getting Started', '', true);
+        window.addEventListener('resize', applyMode);
+        document.getElementById('back-btn').onclick = goBack;
+    }
+
+    // 根据窗口宽度切换桌面/手机布局
+    function applyMode() {
+        document.body.classList.toggle('mobile-mode', isMobile());
+        if (!isMobile()) closeDropdown();
+    }
+
+    /* ---------- 桌面：侧边目录树 ---------- */
+    function renderSidebar() {
+        const c = document.getElementById('nav-tree');
+        c.innerHTML = '';
+        navData.nav.forEach(item => {
+            if (item.page) {
+                c.appendChild(mkNavItem(item.title, item.page, ''));
+            } else if (item.children) {
+                const t = document.createElement('div');
+                t.className = 'nav-group-title';
+                t.textContent = item.title;
+                c.appendChild(t);
+                item.children.forEach(ch => c.appendChild(mkNavItem(ch.title, ch.page, item.title)));
+            }
+        });
+    }
+    function mkNavItem(title, page, group) {
+        const a = document.createElement('a');
+        a.className = 'nav-item';
+        a.textContent = title;
+        a.dataset.page = page;
+        a.onclick = () => loadPage(page, title, group);
+        return a;
+    }
+
+    /* ---------- 手机：顶部大类导航条 ---------- */
+    function renderTopNav() {
+        const bar = document.getElementById('top-nav');
+        bar.innerHTML = '';
+        navData.nav.forEach((item, i) => {
+            const d = document.createElement('div');
+            if (item.page) {
+                // 顶级直达页（如 Getting Started）
+                d.className = 'tn-item tn-direct';
+                d.textContent = item.title;
+                d.dataset.page = item.page;
+                d.onclick = () => { closeDropdown(); loadPage(item.page, item.title, ''); };
+            } else if (item.children) {
+                // 大类：点击下拉出分支
+                d.className = 'tn-item tn-cat';
+                d.dataset.catTitle = item.title;
+                d.innerHTML = item.title + '<span class="tn-arrow">&#9662;</span>';
+                d.onclick = () => toggleDropdown(i, d);
+            }
+            bar.appendChild(d);
+        });
+    }
+
+    function toggleDropdown(idx, btn) {
+        const dd = document.getElementById('tn-dropdown');
+        // 再次点同一大类 -> 收起
+        if (dd.classList.contains('open') && dd.dataset.idx == idx) { closeDropdown(); return; }
+        const item = navData.nav[idx];
+        dd.innerHTML = '';
+        item.children.forEach(ch => {
+            const a = document.createElement('a');
+            a.className = 'tn-sub';
+            a.textContent = ch.title;
+            a.onclick = () => { closeDropdown(); loadPage(ch.page, ch.title, item.title); };
+            dd.appendChild(a);
+        });
+        dd.dataset.idx = idx;
+        dd.classList.add('open');
+        document.querySelectorAll('.tn-cat').forEach(e => e.classList.remove('expanded'));
+        btn.classList.add('expanded');
+    }
+    function closeDropdown() {
+        const dd = document.getElementById('tn-dropdown');
+        dd.classList.remove('open');
+        dd.innerHTML = '';
+        document.querySelectorAll('.tn-cat').forEach(e => e.classList.remove('expanded'));
+    }
+
+    /* ---------- 加载页面片段 ---------- */
+    async function loadPage(pageId, title, group, noHist) {
+        if (!noHist && currentPage && currentPage !== pageId) {
+            history.push({ page: currentPage, title: lastTitle, group: lastGroup });
+        }
+        currentPage = pageId;
+        lastTitle = title || findTitle(pageId);
+        lastGroup = group || findGroup(pageId);
+
+        updateActive(pageId);
+        updateBack();
+        document.getElementById('breadcrumb').innerHTML = lastGroup
+            ? `Wiki / ${lastGroup} / <span>${lastTitle}</span>`
+            : `Wiki / <span>${lastTitle || pageId}</span>`;
+
+        try {
+            const resp = await fetch(`pages/${pageId}.html`);
+            if (!resp.ok) throw new Error('404');
+            document.getElementById('wiki-content').innerHTML = await resp.text();
+        } catch (e) {
+            document.getElementById('wiki-content').innerHTML = '<p style="color:#f66;">Page not found.</p>';
+        }
+        bindInternalLinks();
+        document.getElementById('wiki-content').scrollTop = 0;
+    }
+
+    function goBack() {
+        if (!history.length) return;
+        const prev = history.pop();
+        loadPage(prev.page, prev.title, prev.group, true);
+    }
+    function updateBack() {
+        document.getElementById('back-btn').classList.toggle('disabled', history.length === 0);
+    }
+
+    // 高亮当前项（桌面侧边栏 + 手机大类）
+    function updateActive(pageId) {
+        document.querySelectorAll('.nav-item').forEach(el => el.classList.toggle('active', el.dataset.page === pageId));
+        document.querySelectorAll('.tn-item').forEach(el => el.classList.remove('active'));
+        const group = findGroup(pageId);
+        if (group) {
+            document.querySelectorAll('.tn-cat').forEach(el => el.classList.toggle('active', el.dataset.catTitle === group));
+        } else {
+            document.querySelectorAll('.tn-direct').forEach(el => el.classList.toggle('active', el.dataset.page === pageId));
+        }
+    }
+
+    function findTitle(pageId) {
+        for (const item of navData.nav) {
+            if (item.page === pageId) return item.title;
+            if (item.children) for (const ch of item.children) if (ch.page === pageId) return ch.title;
+        }
+        return pageId;
+    }
+    function findGroup(pageId) {
+        for (const item of navData.nav) {
+            if (item.children) for (const ch of item.children) if (ch.page === pageId) return item.title;
+        }
+        return '';
+    }
+
+    // 内容区内链跳转
+    function bindInternalLinks() {
+        document.querySelectorAll('#wiki-content a[data-page]').forEach(a => {
+            a.onclick = (e) => {
+                e.preventDefault();
+                const page = a.dataset.page;
+                const anchor = a.dataset.anchor;
+                if (isMobile()) closeDropdown();
+                loadPage(page, a.textContent);
+                if (anchor) setTimeout(() => {
+                    const t = document.querySelector('#wiki-content ' + anchor);
+                    if (t) t.scrollIntoView({ behavior: 'smooth' });
+                }, 80);
+            };
+        });
+    }
+
+    init();
+    </script>
+</body>
+</html>
