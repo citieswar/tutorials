@@ -3,6 +3,18 @@
 This page records all game update logs, listed in reverse chronological order for easy reference.
 
 ---
+
+## September 24, 2026 - In-Game Tutorials
+**Summary:**  
+- Added a new **Tutorials** section directly in-game  
+- Click the **[?]** button in the top-left to open Tutorials  
+- **Help** buttons in various game interfaces can link directly to relevant tutorials  
+- Added a **Community** section for players to share guides, tips, strategies, articles, and other useful content  
+- Community submissions are reviewed before publication and become available to all players once approved  
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1wpjjup/cities_war_updates_september_24_2026_ingame/)
+
+
 ## September 8, 2026 - In-Game POTY
 **Summary:**  
 - Added the **POTY system** directly in-game  

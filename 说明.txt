@@ -8,5 +8,9 @@ deploy.bat
 *************************************
 游戏内html生成
 python E:\War\wiki\build_wiki.py
+
+【重要】
+如果新增页面，需要在数据库表WikiItem插入相应的数据
+
 浏览
 http://localhost:8888/preview.html
