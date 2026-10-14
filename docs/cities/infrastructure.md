@@ -17,7 +17,7 @@ To construct it, you must first occupy the city and locate its true position wit
 
 Building requires 25 **[medals](../wars/combat.md#battle-medals)**, except when submitting the location for the first time, which will be reviewed by a moderator at no cost.
 
-If the city is lost in battle, the City Hall is destroyed and must be rebuilt with another 30 medals.
+If the city is lost in battle, the City Hall is destroyed and must be rebuilt with another 25 medals.
 
 ## Fortifications
 Fortifications can be built in a measured city, provide a 30% defense bonus against enemy **[armies](../units/armies.md)**/**[navies](../units/navies.md)** and a 50% defense bonus against enemy **[air forces](../units/airforces.md)**/**[missiles](../units/missiles.md)** for all stationed armies or navies.
