@@ -4,6 +4,19 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## October 14, 2026 - City Facts(Phase 1)
+**Summary:**  
+- Added a **City Facts** window, accessible by clicking a city on the map and selecting **Facts**  
+- Added an **Improvements** section to view city improvements, with **View All Your Improvements** to see improvements across all your cities  
+- Click any Improvement box to jump to the corresponding city area and manage it  
+- Added **Inscription History** to preserve previous inscriptions when another player edits them  
+- Clicking an inscription in the Occupiers list displays it below the city's image  
+- Removed the **8-hour inscription editing cooldown**  
+- Monument timestamps are now clickable to view detailed monument information  
+- The first **City Hall** location submitted for a city no longer requires admin approval  
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1x5maxm/cities_war_updates_october_14_2026_city_facts/)
+
 ## September 24, 2026 - In-Game Tutorials
 **Summary:**  
 - Added a new **Tutorials** section directly in-game  

@@ -9,6 +9,8 @@ deploy.bat
 游戏内html生成
 python E:\War\wiki\build_wiki.py
 
+拷贝时需要将index.json一并拷贝
+
 【重要】
 如果新增页面，需要在数据库表WikiItem插入相应的数据
 
