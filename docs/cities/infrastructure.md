@@ -15,7 +15,7 @@ The City Hall can be built in a measured city, providing a 20% bonus to defense 
 
 To construct it, you must first occupy the city and locate its true position within the urban area. 
 
-Building requires 25 **[medals](../wars/combat.md#battle-medals)**, except when submitting the location for the first time, which will be reviewed by a moderator at no cost.
+Building requires 25 **[medals](../wars/combat.md#battle-medals)**, ~~except when submitting the location for the first time, which will be reviewed by a moderator at no cost.~~
 
 If the city is lost in battle, the City Hall is destroyed and must be rebuilt with another 25 medals.
 
