@@ -35,6 +35,8 @@ You can increase the City Hall's durability by 1 at the following resource cost:
 ## Monuments
 Monuments are built to commemorate major battles that took place in a city. The victorious side can choose a location within the city’s measured area to **[construct](../wars/combat.md#monuments)** a Monument, leaving a lasting mark of their triumph.
 
+If you occupy a city containing Monuments, you will receive **50 Gold per day for each Monument** in that city.
+
 ## Fortifications
 Fortifications can be built in a measured city, providing a 30% defense bonus against enemy **[armies](../units/armies.md)**/**[navies](../units/navies.md)** and a 50% defense bonus against enemy **[air forces](../units/airforces.md)**/**[missiles](../units/missiles.md)** for all stationed armies or navies.
 
