@@ -4,6 +4,35 @@ This page records all game update logs, listed in reverse chronological order fo
 
 ---
 
+## October 30, 2026 - City Hall & Fortifications Durability
+**Summary:**  
+- Added a **Durability System** to City Hall and Fortifications
+- Newly built structures start with **1 durability**, with a maximum of **5**
+- Each time a city is captured by another player, durability decreases by 1
+- When durability reaches 0, the structure is destroyed and must be rebuilt for **25 Medals**
+- Players can spend resources to increase durability by 1:
+
+  **City Hall:**
+  - Oil: 70,000
+  - Steel: 70,000
+  - Rare: 25,000
+
+  **Fortifications:**
+  - Oil: 80,000
+  - Steel: 80,000
+  - Rare: 15,000
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1xj9z0y/cities_war_updates_october_30_2026_city_hall/)
+
+##  October 22, 2026 - City Facts - Country Information
+**Summary:**  
+- Added **Country Information** to City Facts, showing which country each city belongs to  
+- New city submissions now require selecting a country  
+- Country data is based on **Natural Earth**  
+- Country labels are for informational purposes only and do not represent any political stance or endorsement by the game  
+
+📎 **Details:** [View full update →](https://www.reddit.com/r/citieswar/comments/1xcc8ma/cities_war_updates_october_22_2026_city_facts/)
+
 ## October 14, 2026 - City Facts(Phase 1)
 **Summary:**  
 - Added a **City Facts** window, accessible by clicking a city on the map and selecting **Facts**  

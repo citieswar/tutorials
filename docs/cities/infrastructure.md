@@ -18,6 +18,7 @@ To construct it, you must first occupy the city and locate its true position wit
 
 ### Durability
 
+- Newly built City Halls start with 1 durability.
 - Maximum durability is 5.
 - Each time the city is captured by another player, the City Hall loses 1 durability.
 - If durability reaches 0, the City Hall is destroyed and must be rebuilt for 25 **[Medals](../wars/combat.md#battle-medals)**.
@@ -46,6 +47,7 @@ Fortifications can be built in a measured city, providing a 30% defense bonus ag
 
 ### Durability
 
+- Newly built Fortifications start with 1 durability.
 - Maximum durability is 5.
 - Each time the city is captured by another player, the Fortifications lose 1 durability.
 - If durability reaches 0, the Fortifications are destroyed and must be rebuilt for 25 Medals.
