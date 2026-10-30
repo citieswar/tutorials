@@ -37,6 +37,8 @@ Monuments are built to commemorate major battles that took place in a city. The 
 
 If you occupy a city containing Monuments, you will receive **50 Gold per day for each Monument** in that city.
 
+Monuments also contribute to your **Achievement Points** and may give you the opportunity to earn a **[Custom Title](https://www.reddit.com/r/citieswar/comments/1qdjai2/custom_title/)**.
+
 ## Fortifications
 Fortifications can be built in a measured city, providing a 30% defense bonus against enemy **[armies](../units/armies.md)**/**[navies](../units/navies.md)** and a 50% defense bonus against enemy **[air forces](../units/airforces.md)**/**[missiles](../units/missiles.md)** for all stationed armies or navies.
 
