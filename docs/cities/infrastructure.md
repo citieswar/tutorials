@@ -1,7 +1,6 @@
 # City Infrastructure
 
-## Monuments
-Monuments are built to commemorate major battles that took place in a city. The victorious side can choose a location within the city’s measured area to **[construct](../wars/combat.md#monuments)** a Monument, leaving a lasting mark of their triumph.
+
 
 ## City Connectors
 When a city has a measured area, you can build a Connector in it. Connectors link cities to each other and to your Army base, forming a connected network. 
@@ -32,6 +31,9 @@ You can increase the City Hall's durability by 1 at the following resource cost:
 - Oil: 70,000
 - Steel: 70,000
 - Rare: 25,000
+
+## Monuments
+Monuments are built to commemorate major battles that took place in a city. The victorious side can choose a location within the city’s measured area to **[construct](../wars/combat.md#monuments)** a Monument, leaving a lasting mark of their triumph.
 
 ## Fortifications
 Fortifications can be built in a measured city, providing a 30% defense bonus against enemy **[armies](../units/armies.md)**/**[navies](../units/navies.md)** and a 50% defense bonus against enemy **[air forces](../units/airforces.md)**/**[missiles](../units/missiles.md)** for all stationed armies or navies.
